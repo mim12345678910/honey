@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=PT+Sans&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=PT+Sans&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*common css*/
+:root{
+   --pop: "Poppins", sans-serif;
+   --rob: "Roboto", sans-serif;
+
+	--green: #21B573;
+	--red: #FD511A;
+	--black: #000000;
+}
+body{
+font-family: var(--pop);
+font-size: 16px;
+font-weight: 400;
+color: var(--black);
+}
+/*header start*/
+
+.hero{
+	background-color: #F7941D;
+	height: 200px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 15px;
+	padding-bottom: 10%;
+	padding-right: 10%;
+}
+.logo{
+	color: #000000;
+	font-size: 28px;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 20px;
+}
+nav ul li a{
+	color: #000000;
+	text-decoration: none;
+	font-family: roboto;
+}
+nav ul li a:hover{
+	color: white;
+	transition: .3s;
+}
+button{
+	border: none;
+	background:#F7941D ;
+	padding: 12px 30px;
+	border-radius: 30px;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	transition: .4s;
+}
+.honey{
+	size: 18px !important;
+}
+.banner{
+	background-image: url(../image/frame.png);
+	background-position: center;
+}
+.row{}
+.logo1{}
+.btn primary{}
+.s_h1{
+
+font-family: Imperial Script;
+font-size: 40px;
+font-weight: 400;
+}
+.s_p{
+	padding: 24px 28px;
+font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 18.67px;
+}
+.b_img{
+	width: 800px;
+	height: 500px;
+}
+.img{
+	width: 400px;
+height: ;
+}
+.j_1{
+	padding-top: 80px;
+}
+.j2{
+	padding-bottom: 120px;
+}
+.j_2{
+
+}
+.row h2{
+	font-size: 18px;
+	float: none;
+	padding-left: 20%;
+}
+.row a{
+   color: #F7941D;
+	text-decoration: none;
+	padding-left: 20%;
+}
+.row button btn-ho{
+	 background: #A697971C;
+;
+	padding-left: 20%;
+}
+
+.banner_2{
+	background-image: url(../image/Frame1.png);
+
+	background-position: center;
+width: 1643px;
+height: 484px;
+top: 1501px;
+left: -88px;
+gap: 0px;
+opacity: 0px;
+
+}
+.spoon{
+	float: right;
+	position: top;
+
+}
+.row{}
+.ban_h{
+font-family: Imperial Script;
+font-size: 40px;
+font-weight: 400;
+
+
+}
+.spoon{
+	position: top;
+}
+.ban_p2{
+	font-family: roboto;
+	font-size: 12px;
+	font-weight: 400;
+
+}
+.li_i{
+	width: 400px;
+}
